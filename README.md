@@ -1,5 +1,5 @@
 # VAC
-Visual Attention Consistency under Image Transforms for Multi-Label Image Classification
+Visual Attention Consistency under Image Transforms for Multi-Label Image Classification (修改成细粒度分类任务)
 
 ########################################################################################
 

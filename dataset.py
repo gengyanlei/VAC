@@ -114,7 +114,7 @@ class CustomDataset(Dataset):
         ## 读取图片 ##
         if self.phase == 'train':
             image = cv2.imread(self.data_list[index], -1)  # bgr
-            image = self.__edge_filling(image)
+            image = self.__edge_filling(image)  #  训练过程中 验证也需要保持不形变，测试更是如此。
             image = image[..., ::-1]  # bgr->rgb
             image = Image.fromarray(image, mode='RGB')
             # 加入padding之后，宽高比为1，然后经过2个不同尺度的resize

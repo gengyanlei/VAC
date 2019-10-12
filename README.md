@@ -7,3 +7,5 @@ Visual Attention Consistency under Image Transforms for Multi-Label Image Classi
  
  python: 3.5
  pytorch: 1.1
+ 
+ # 提示：细粒度分类任务通常class_num>1000，训练资源消耗严重，且效果不是很理想。

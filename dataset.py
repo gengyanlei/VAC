@@ -18,6 +18,7 @@ class CustomDataset(Dataset):
         self.size1 = size1
         self.size2 = size2
         self.phase = phase
+	''' 这里3个变量，可以通过传参进行修改！！！ '''
         self.root = '/home/ailab/dataset/new_data/'
         train_txt_file = open('/home/ailab/dataset/new_data/readme/train.txt')
         test_txt_file = open('/home/ailab/dataset/new_data/readme/test.txt')
